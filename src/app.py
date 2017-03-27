@@ -14,7 +14,7 @@ app.secret_key = "jose"
 
 @app.route('/')
 def home_template():
-    return render_template('home.html')
+    return render_template('login.html')
 
 
 @app.route('/login')
